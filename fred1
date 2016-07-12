@@ -35,5 +35,4 @@ ggplot(data=freddate1, aes(x=DATE, y=TWEXBPA, group=1, label=TWEXBPA)) +
   labs(x="Date", y="TWEXBPA") +
   # Adjust the chart size and proportion
   coord_fixed(ratio = 1) 
-  betterDates <- as.Date(DATE,
-                       format = "%B %Y")
+
