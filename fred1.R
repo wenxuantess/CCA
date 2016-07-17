@@ -1,4 +1,3 @@
-# Tasks before next meeting: graph for 10 year data with less variable label
 # Install all the packages
 options(repos='http://cran.rstudio.com/')
 packages <- c("data.table","curl","grid","png","ggplot2")
